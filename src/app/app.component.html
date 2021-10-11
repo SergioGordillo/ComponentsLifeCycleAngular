@@ -1,4 +1,6 @@
 <h1>Angular Life Cycle</h1>
 <hr>
 
-<app-page1></app-page1>
+<button (click)="showPage1=!showPage1">{{showPage1 ? 'Hide' : 'Show'}}</button>
+<app-page1 *ngIf="showPage1"></app-page1>
+

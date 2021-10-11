@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ComponentsLifeCycle';
+
+  showPage1:boolean=true;
+
+
 }
